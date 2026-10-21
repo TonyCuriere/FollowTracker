@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FollowTracker by Automation.pnz</title>
+<meta name="description" content="FollowTracker analyzes the data export you download from Meta to show who doesn't follow you back. It runs in your browser, works offline and never asks for your Instagram password.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="logo"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#101113" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.3 2.7-6 6-6"/><path d="M14 17l2.5 2.5L21 15"/></svg></span>
+      <span class="brand-name"><strong>FollowTracker</strong><span>by Automation.pnz</span></span>
+    </a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="../index.html" lang="it" class="lang">IT</a>
+      <a class="btn small" href="https://automationpnz.lemonsqueezy.com">Buy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="rings" style="right:-220px;top:-220px;width:620px;height:620px" aria-hidden="true"></div>
+    <div class="rings" style="right:-120px;top:-120px;width:420px;height:420px" aria-hidden="true"></div>
+    <div class="wrap">
+      <div>
+        <span class="pill">for Instagram data exports</span>
+        <h1>See who <em>doesn't follow you back.</em></h1>
+        <p class="lead">FollowTracker reads the data export you download from Meta and shows mutual follows, accounts that don't follow you back and pending requests. No password, no server: everything runs on your computer.</p>
+        <div class="actions">
+          <a class="btn" href="https://automationpnz.lemonsqueezy.com">Get FollowTracker · 9.99 EUR
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn ghost" href="#demo">Watch the demo</a>
+        </div>
+        <p class="note">One-time payment. Secure checkout by Lemon Squeezy.</p>
+      </div>
+
+      <div class="mock" role="img" aria-label="FollowTracker app preview with demo data">
+        <div class="mock-bar"><i></i><i></i><i></i><span>FollowTracker.html · offline</span></div>
+        <div class="mock-body">
+          <div class="mock-head">
+            <strong>Your connections</strong>
+            <span class="badge-local">
+              <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="10" width="12" height="10" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+              Only on your device
+            </span>
+          </div>
+          <div class="stats">
+            <div class="stat"><b style="color:var(--coral)">38</b><span>Not following back</span></div>
+            <div class="stat"><b style="color:var(--green)">412</b><span>Mutual follows</span></div>
+            <div class="stat"><b style="color:var(--amber)">5</b><span>Pending requests</span></div>
+            <div class="stat"><b style="color:var(--blue)">27</b><span>You don't follow back</span></div>
+          </div>
+          <div class="bars">
+            <div class="row"><span>Mutual</span><span>92%</span></div>
+            <div class="bar"><div style="width:92%;background:var(--green)"></div></div>
+            <div class="row"><span>Not following back</span><span>8%</span></div>
+            <div class="bar"><div style="width:8%;background:var(--coral)"></div></div>
+          </div>
+          <div class="mock-foot">Demo data</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="how">
+    <div class="wrap">
+      <span class="eyebrow">How it works</span>
+      <h2>Three steps. No login.</h2>
+      <p class="sub">You use the data Meta already lets you download. The app reads it locally and shows you the results.</p>
+      <div class="steps">
+        <div class="step">
+          <span class="eyebrow">01 · Download</span>
+          <h3>Request your data export from Meta</h3>
+          <p>Ask Meta for your followers and following. A step-by-step PDF guide is included. Preparing the export can take some time.</p>
+        </div>
+        <div class="step">
+          <span class="eyebrow">02 · Load</span>
+          <h3>Open the app and select the files</h3>
+          <p>Open <code>FollowTracker.html</code> in your browser and pick the files you downloaded.</p>
+          <div class="chips"><span class="chip" style="background:var(--amber)">.json</span><span class="chip" style="background:var(--blue)">.html</span></div>
+        </div>
+        <div class="step">
+          <span class="eyebrow">03 · Read</span>
+          <h3>See your results</h3>
+          <div class="legend">
+            <span><i class="dot" style="background:var(--green)"></i>Mutual follows</span>
+            <span><i class="dot" style="background:var(--coral)"></i>Not following back</span>
+            <span><i class="dot" style="background:var(--amber)"></i>Pending requests</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <span class="eyebrow">Features</span>
+      <h2>Private by design.</h2>
+      <p class="sub">The app never asks for your Instagram password and never connects to your account. Files are read in your browser and are not uploaded anywhere.</p>
+      <div class="features">
+        <div class="feature">
+          <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2l20 20"/><path d="M5.8 8.2A5 5 0 0 0 6.5 18H17"/><path d="M20.6 16.3A4 4 0 0 0 17 10h-1.3A7 7 0 0 0 9.3 5.4"/></svg>
+          <div><h3>Nothing stored online</h3><p>Everything stays in your browser. The app works offline too.</p></div>
+        </div>
+        <div class="feature">
+          <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 7.6-1.7"/><path d="M12 15v2"/></svg>
+          <div><h3>No Instagram login</h3><p>Your password never goes into the app. The Meta export is all you need.</p></div>
+        </div>
+        <div class="feature">
+          <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M10 13l-2 2 2 2"/><path d="M14 13l2 2-2 2"/></svg>
+          <div><h3>JSON or HTML</h3><p>Reads both formats of the Meta export.</p></div>
+        </div>
+        <div class="feature">
+          <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg>
+          <div><h3>Compare over time</h3><p>Save several exports and compare them (at least two are needed). Export results to CSV or print the report as PDF.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="demo">
+    <div class="wrap narrow">
+      <span class="eyebrow">Demo</span>
+      <h2>See the whole flow.</h2>
+      <p class="sub">From the Meta export to the results, recorded with demo data.</p>
+      <a class="video-card" href="https://youtu.be/nI84-twU-Dk" target="_blank" rel="noopener">
+        <span class="play"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="#101113"><path d="M8 5v14l11-7z"/></svg></span>
+        <span><h3>Watch the demo video</h3><p>Opens on YouTube</p></span>
+        <span class="pill">youtu.be</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <div class="price-wrap">
+        <div>
+          <span class="eyebrow">Pricing</span>
+          <h2>One payment. Yours to keep.</h2>
+          <p class="sub">No subscription. Lifetime use of the version you purchase.</p>
+          <ul class="limits">
+            <li>Designed for a computer with a modern browser.</li>
+            <li>You need to request your data export from Meta first.</li>
+            <li>Results describe the accounts in the files you provide. They are not real-time monitoring and don't explain why an account disappeared. Counts can differ from your profile.</li>
+            <li>Saved history stays in the browser you used and is lost if you clear its data.</li>
+          </ul>
+        </div>
+        <div class="price-card">
+          <div class="rings" style="right:-120px;top:-120px;width:280px;height:280px" aria-hidden="true"></div>
+          <span class="eyebrow">FollowTracker</span>
+          <p class="amount">9.99 <small>EUR</small></p>
+          <p class="terms">One-time payment · taxes shown at checkout</p>
+          <ul class="checks">
+            <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Complete portable app (<code>FollowTracker.html</code>)</li>
+            <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Illustrated PDF guide</li>
+            <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>CSV export and printable PDF report</li>
+            <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Instant download after purchase</li>
+          </ul>
+          <a class="btn" href="https://automationpnz.lemonsqueezy.com">Buy FollowTracker</a>
+          <p class="terms" style="margin:16px 0 0">See the <a href="terms.html">Terms and Conditions</a> for personal use, refund and support details.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="faq">
+    <div class="wrap narrow">
+      <span class="eyebrow">FAQ</span>
+      <h2>Questions.</h2>
+      <div class="faq">
+        <details>
+          <summary>Do I need to give my Instagram password?</summary>
+          <p>No. The app never asks for it and never connects to your account. It only reads the export files you download from Meta.</p>
+        </details>
+        <details>
+          <summary>Are my files uploaded anywhere?</summary>
+          <p>No. The files are read locally in your browser and are not sent to any server. See the <a href="privacy.html">Privacy Policy</a>.</p>
+        </details>
+        <details>
+          <summary>Does it work on my phone?</summary>
+          <p>FollowTracker is designed for use on a computer with a modern browser.</p>
+        </details>
+        <details>
+          <summary>Is it real-time?</summary>
+          <p>No. Results reflect the export you load. To see changes, request a new export and compare it with a previous one.</p>
+        </details>
+        <details>
+          <summary>What if it doesn't work for me?</summary>
+          <p>Write to <a href="mailto:auralinkgroup@gmail.com">auralinkgroup@gmail.com</a>. If we can't solve the problem, you can request a refund within 14 days as described in the <a href="terms.html">Terms</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="rings" style="left:-200px;bottom:-300px;width:600px;height:600px" aria-hidden="true"></div>
+    <div class="wrap">
+      <h2>Instagram won't tell you. <em>FollowTracker will.</em></h2>
+      <p class="sub">Questions? Write to <a href="mailto:auralinkgroup@gmail.com">auralinkgroup@gmail.com</a> or follow <a href="https://www.instagram.com/automation.pnz/">@automation.pnz</a>.</p>
+      <a class="btn" href="https://automationpnz.lemonsqueezy.com">Get FollowTracker</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>&copy; 2026 Automation.pnz · Not affiliated with, endorsed by or sponsored by Instagram or Meta.</span>
+    <nav>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms and Conditions</a>
+      <a href="https://www.instagram.com/automation.pnz/">Instagram</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
