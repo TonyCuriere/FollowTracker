@@ -294,10 +294,3 @@ header.site nav a.lang { font-family: var(--mono); font-size: 13px; border: 1px 
   .toast { left: 8px; top: -26px; }
   .stage { margin-top: 24px; }
 }
-
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
-  .ticker-track { animation: none; }
-  .toast { opacity: 1; }
-  .js .reveal { opacity: 1; transform: none; }
-}

@@ -1,9 +1,11 @@
 (function () {
   var root = document.documentElement;
   root.classList.add('js');
-  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Animazioni sempre attive, anche se il sistema chiede di ridurle.
+  var reduced = false;
 
-  function fmt(n) { return n.toLocaleString('it-IT'); }
+  // Punto delle migliaia anche a 4 cifre (toLocaleString in italiano lo omette: 1246 invece di 1.246)
+  function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
 
   // Count a number up from 0 when it becomes visible
   function countUp(el) {
